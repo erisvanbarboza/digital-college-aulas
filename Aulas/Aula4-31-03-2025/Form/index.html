@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <h1>Formulários</h1>
+    </header>
+
+    <main>
+        <label for="nome">Nome: </label>
+        <input type="text" id="name" nome="nome" required>
+
+        <br><br>
+
+        <label for="email">E-mail: </label>
+        <input type="email" id="email" required>
+
+        <br><br>
+
+        <label for="telefone">WhatsApp: </label>
+        <input type="number" name="telefone" id="telefone">
+
+        <br><br>
+
+        <label for="areaDeAtuacao">Área de Atuação</label>
+        <input type="radio" name="desenvolvimento" id="desenvolvimento">Desenvolvimento
+        <input type="radio" name="qualityAssurance" id="qualityAssurance">Quality Assurance (QA)
+        <input type="radio" name="analiseDeDados" id="analiseDeDados">Análise de Dados
+        <input type="radio" name="infraestrutura" id="infraestrura">infraestrutura
+
+        <br><br>
+
+        <label for="obs">Observações:</label>
+        <!-- <input type="textarea" name="obs" id="obs" cols="40"> -->
+        <textarea name="obs" id="obs"></textarea>
+
+        <br><br>
+
+        <label for="novidades">Desejo receber novidades e ofertas por email</label>
+        <input type="checkbox">Sim
+        <input type="checkbox">Não
+
+        <br><br>
+
+        <label for="send" name="send"></label>
+        <input type="submit" name="send" id="send">
+    </main>
+</body>
+
+</html>
